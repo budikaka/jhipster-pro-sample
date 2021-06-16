@@ -1,0 +1,69 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "com.zbdigit.myapp",
+    "packageFolder": "com/zbdigit/myapp",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "redis",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "ormTool": "hibernate",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn", "en"],
+    "clientFramework": "vue",
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-pro701",
+        "version": "0.0.42"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-pro701",
+        "version": "0.0.42"
+      }
+    ],
+    "useCms": false,
+    "useWeixin": false,
+    "workflow": "no",
+    "useDemo": false,
+    "useFaceServer": false,
+    "useBigScreen": false,
+    "softDelete": false,
+    "jhipsterVersion": "7.0.1-hbzx3",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "pages": [],
+    "creationTimestamp": 1623852460948,
+    "jwtSecretKey": "MmE5ZTE3MzhjZWQyNDBiNzY5OWZkMmRlZDJjYmZiYjViMjUyMmYwZDI5ZjEwN2U1ZTRkM2FjZDViOTEzMTBlYzgzNGJmNzE4MDM0NzM0NDc4MjdmMjhmMzgwZDQxZTBlMTkyNmMzYWZiNDQzY2IwMWQ4MDk3ZTkxYTE5YThhZDM=",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "withAdminUi": true,
+    "reactive": false
+  },
+  "git-provider": "GitHub",
+  "git-company": "budikaka",
+  "repository-name": "jhipster-pro-sample"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "CommonLong",
+  "fields": [
+    {
+      "fieldName": "ownerType",
+      "fieldType": "String",
+      "javadoc": "宿主类别名称"
+    },
+    {
+      "fieldName": "ownerId",
+      "fieldType": "Long",
+      "javadoc": "宿主Id"
+    },
+    {
+      "fieldName": "fieldName",
+      "fieldType": "String",
+      "javadoc": "对应属性名"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Long",
+      "javadoc": "值"
+    }
+  ],
+  "relationships": [],
+  "javadoc": "通用长整\\nconfig: {\"commonField\": true}",
+  "entityTableName": "common_long",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "skipComponent": "restController-controllerTest",
+  "skipClient": true,
+  "commonField": true
+}

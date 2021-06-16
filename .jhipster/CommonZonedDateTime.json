@@ -1,0 +1,39 @@
+{
+  "name": "CommonZonedDateTime",
+  "fields": [
+    {
+      "fieldName": "ownerType",
+      "fieldType": "String",
+      "javadoc": "宿主类别名称"
+    },
+    {
+      "fieldName": "ownerId",
+      "fieldType": "Long",
+      "javadoc": "宿主Id"
+    },
+    {
+      "fieldName": "fieldName",
+      "fieldType": "String",
+      "javadoc": "对应属性名"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "ZonedDateTime",
+      "javadoc": "值"
+    }
+  ],
+  "relationships": [],
+  "javadoc": "通用日期时间\\nconfig: {\"commonField\": true}",
+  "entityTableName": "common_zoned_date_time",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "skipComponent": "restController-controllerTest",
+  "skipClient": true,
+  "commonField": true
+}
